@@ -1,0 +1,59 @@
+print ("~~~~~~~~~~~~~~~~~~~Welcome to KBC~~~~~~~~~~~~~~~~~\n")
+print ("1. Which planet is known as the 'Red Planet'?\n ")
+print("Earth\nVenus\nMars\nJupiter\n")
+
+list1=["Earth","Venus","Mars","Jupiter"]
+a=list1[2]
+usera=input("Answer : ",)
+if usera==a:
+    print("This is correct Answer!!\n")
+else:
+    print("Better luck next time.\n")
+
+print(" 2. Who wrote the famous play Romeo and Juliet?\n")
+print("Charles Dickens\nWilliam Shakespeare\nMark Twain\nLeo Tolstoy\n")
+list2=["Charles Dickens","William Shakespeare","Mark Twain","Leo Tolstoy"]
+b=list2[1]
+userb=input("Answer : ",)
+if userb==b:
+    print("This is correct Answer!!\n")
+else:
+    print("Better luck next time.\n")
+
+print(" 3. Which country is the largest by land area?\n")
+print("Canada\nUnited States\nRussia\nChina\n")
+list3=["Canada","United States","Russia","China"]
+c=list3[2]
+userc=input("Answer : ",)
+if userc==c:
+    print("This is correct Answer!!\n")
+else:
+    print("Better luck next time.\n")
+
+print(" 4. What is the hardest natural substance on Earth?\n")
+print("Gold\nIron\nDiamond\nPlatinum\n")
+list4=["Gold","Iron","Diamond","Platinum"]
+d=list1[2]
+userd=input("Answer : ",)
+if userd==d:
+    print("This is correct Answer!!\n")
+else:
+    print("Better luck next time.\n")
+
+print(" 5. In which year did the Titanic sink?\n")
+print("1905\n1912\n1918\n1923\n")
+list5=["1905","1912","1918","1923"]
+e=list5[1]
+usere=input("Answer : ",)
+if usere==e:
+    print("This is correct Answer!!\n")
+else:
+    print("Better luck next time.\n")
+
+print("\nThankyou for playing the quiz!!")
+
+
+
+
+
+
